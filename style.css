@@ -16,10 +16,11 @@ body {
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
-    h1 {
+    #title {
         font-size: 1.5rem;
+        color: red;
         text-align: center;
-        /* margin: 0.5rem 1rem; */
+        margin: 0.5rem 1rem;
     }
 
     #searchButton {
@@ -39,7 +40,7 @@ body {
     }
 }
 
-h1 {
+#title {
     font-size: 4rem;
     margin-bottom: 1rem;
     color: white;
